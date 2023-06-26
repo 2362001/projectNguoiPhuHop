@@ -1,0 +1,27 @@
+.banner {
+  width: 100%;
+  height: 600px;
+
+  .banner-children {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .banner-children-spanBanner {
+      position: absolute;
+      top: 20%;
+      margin-left: 20%;
+      color: #000000;
+      font-family: 'Montserrat', Sans-serif;
+      font-size: 5.4rem;
+      font-weight: 700;
+      line-height: 8.4rem;
+      mix-blend-mode: multiply;
+      width: 550px;
+    }
+  }
+}
