@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  // position: fixed;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+  ul,
+  li,
+  a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+  }
+
+  .commont-ft {
+    width: 30%;
+  }
+  .ft1 {
+    .ft1-img {
+      width: 200px;
+      height: 100%;
+      object-fit: cover;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .ft2 {
+  }
+  .ft3 {
+  }
+}

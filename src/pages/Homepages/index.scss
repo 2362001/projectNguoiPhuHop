@@ -1,0 +1,25 @@
+.HomePages {
+  .Attractivejob {
+    height: 650px;
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .AttractivejobChild {
+      width: 60%;
+      height: 100%;
+
+      .AttractivejobChild-1 {
+      }
+      .AttractivejobChild-2 {
+        .AttractivejobChildCom {
+          height: 200px;
+          width: 200px;
+          background-color: red;
+        }
+      }
+    }
+  }
+}

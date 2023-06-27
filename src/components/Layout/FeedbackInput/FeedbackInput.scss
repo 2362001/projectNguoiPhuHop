@@ -1,0 +1,56 @@
+@import '../../../App.scss';
+
+.feedbackInput {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .feedbackInputChild {
+    height: 80%;
+    width: 60%;
+    background-color: $primary-color;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .feedbackInputChild-left {
+      color: white;
+      font-size: 4.8rem;
+      width: 60%;
+      text-align: center;
+      font-weight: 600;
+    }
+    .feedbackInputChild-right {
+      width: 60%;
+      display: flex;
+      background-color: #606060;
+      border-radius: 20px;
+      color: white;
+      font-size: 2rem;
+      overflow: auto;
+
+      input {
+        width: 80%;
+        height: 40px;
+        border: none;
+        padding-left: 10px;
+        outline: none;
+      }
+
+      .feedbackInputChild-right-btn {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        .icon {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,14 +1,18 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.scss'
-import HomePages from './pages/HomePages'
+import { Contact, HomePages, Login } from './routes/routes'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<HomePages />} />
-      </Routes>
-    </BrowserRouter>
+    <div className='app'>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<HomePages />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   )
 }
 
