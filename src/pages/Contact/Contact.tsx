@@ -1,7 +1,7 @@
+import { Button, Form, Input } from 'antd'
 import { useState } from 'react'
 import { Footer, Header } from '../../components'
 import './Contact.scss'
-import { Button, Form, Input, Radio } from 'antd'
 
 type LayoutType = Parameters<typeof Form>[0]['layout']
 const Contact = () => {

@@ -3,7 +3,6 @@ import Banner from '../../components/Layout/Banner/Banner'
 import FeedbackInput from '../../components/Layout/FeedbackInput/FeedbackInput'
 import Footer from '../../components/Layout/Footer/Footer'
 import Header from '../../components/Layout/Header/Header'
-import Attractivejob from './Component/Attractivejob'
 import './index.scss'
 
 const HomePages = () => {
