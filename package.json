@@ -13,7 +13,7 @@
     "prettier": "prettier --check \"src/**/(*.tsx|*.ts|*.css|*.scss)\"",
     "prettier:fix": "prettier --write \"src/**/(*.tsx|*.ts|*.css|*.scss)\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
