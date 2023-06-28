@@ -15,16 +15,19 @@ const OurCustomer = () => {
       <div className='OurCustomerChild'>
         <Carousel autoplay>
           <div>
-            <h3 style={contentStyle}>1</h3>
+            <h3 style={contentStyle}>
+              <div>Tôi rất bất ngờ với cách làm việc Chị Thái Hà và JOHN HUNT</div>
+            </h3>
           </div>
           <div>
-            <h3 style={contentStyle}>2</h3>
+            <h3 style={contentStyle}>
+              <div>Tôi rất bất ngờ với cách làm việc Chị Thái Hà và JOHN HUNT</div>
+            </h3>
           </div>
           <div>
-            <h3 style={contentStyle}>3</h3>
-          </div>
-          <div>
-            <h3 style={contentStyle}>4</h3>
+            <h3 style={contentStyle}>
+              <div>Tôi rất bất ngờ với cách làm việc Chị Thái Hà và JOHN HUNT</div>
+            </h3>
           </div>
         </Carousel>
       </div>
