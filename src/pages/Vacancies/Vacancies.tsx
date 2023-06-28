@@ -1,7 +1,13 @@
+import { Header } from '../../components'
 import './index.scss'
 
 const Vacancies = () => {
-  return <div>Vacancies</div>
+  return (
+    <div>
+      <Header />
+      TÍNH NĂNG ĐANG ĐƯỢC HOÀN THIỆN ...
+    </div>
+  )
 }
 
 export default Vacancies
