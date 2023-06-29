@@ -1,0 +1,144 @@
+@import '../../App.scss';
+.AboutMe {
+  margin-bottom: 2.5rem;
+  .about-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5rem;
+    .infor {
+      max-width: 120rem;
+      display: flex;
+      justify-content: center;
+      &-img-hunt {
+        width: 100%;
+        max-width: 60rem;
+        height: 100%;
+        max-height: 60rem;
+        img {
+          width: 58rem;
+          height: 58rem;
+        }
+      }
+      &-about-hunt {
+        h1 {
+          color: #272727;
+          font-family: 'Montserrat', Sans-serif;
+          font-size: 4.8rem;
+          font-weight: 600;
+          margin: 0.67em 0;
+        }
+        p {
+          text-align: justify;
+          color: #606060;
+          font-family: 'Montserrat', Sans-serif;
+          font-size: 1.6rem;
+          font-weight: 100;
+          line-height: 25.6px;
+        }
+        ul {
+          justify-content: flex-start;
+          display: flex;
+          flex-direction: column;
+        }
+        li {
+          list-style: none;
+        }
+      }
+      .infor-img-hunt,
+      .infor-about-hunt {
+        flex: 1;
+        text-align: center;
+      }
+    }
+  }
+  .about-me-provide {
+    display: flex;
+    justify-content: center;
+    .infor-provide {
+      max-width: 120rem;
+      display: flex;
+      justify-content: center;
+      .infor-about-provide {
+        padding-right: 50px;
+        width: 55rem;
+        h1 {
+          color: #272727;
+          font-family: 'Montserrat', Sans-serif;
+          font-size: 4.8rem;
+          font-weight: 600;
+          margin: 0.67em 0;
+        }
+        p {
+          text-align: justify;
+          color: #606060;
+          font-family: 'Montserrat', Sans-serif;
+          font-size: 1.6rem;
+          font-weight: 400;
+          line-height: 25.6px;
+          margin: 1.6rem 0 1.6rem 0;
+        }
+        .list-provide {
+          justify-content: flex-start;
+          display: flex;
+          flex-direction: column;
+          font-size: 1.6rem;
+          padding: 0;
+          text-align: justify;
+          color: #606060;
+          font-family: 'Montserrat', Sans-serif;
+          font-size: 1.6rem;
+          font-weight: 400;
+          line-height: 25.6px;
+          .provide {
+            list-style: none;
+            .anticon-check-circle {
+              color: $primary-color;
+              padding-right: 0.5rem;
+              padding-bottom: 2rem;
+            }
+          }
+          .provide:first-child {
+            padding-top: 25px;
+          }
+        }
+        .ant-btn-primary {
+          background-color: $primary-color;
+        }
+      }
+      .infor-img-hunt-provide {
+        width: 100%;
+        max-width: 60rem;
+        height: 100%;
+        max-height: 60rem;
+        img {
+          width: 58rem;
+          height: 58rem;
+        }
+      }
+
+      .infor-img-hunt-provide,
+      .infor-about-hunt-provide {
+        flex: 1;
+        text-align: center;
+      }
+    }
+  }
+  .work-phil {
+    .work-phil-container {
+      .descreption {
+      }
+      .work-phil-content {
+      }
+      .content {
+      }
+      .step-phil {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: 50px;
+        }
+      }
+    }
+  }
+}
