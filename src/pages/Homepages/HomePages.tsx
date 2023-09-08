@@ -15,10 +15,10 @@ const HomePages = () => {
         <Header />
         <Banner img={banner} textBanner='NGƯỜI PHÙ HỢP JOHN HUNT' isHaveSearchInput />
         <Attractivejob />
-        {/* <OurCustomer />
+        <OurCustomer />
         <OurCustomer />
         <FeedbackInput />
-        <Footer /> */}
+        <Footer />
       </div>
     </Watermark>
   )
