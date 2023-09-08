@@ -4,5 +4,6 @@ import Contact from '../pages/Contact/Contact'
 import OurCustomer from '../pages/Homepages/Component/OurCustomer'
 import HomePages from '../pages/Homepages/HomePages'
 import Login from '../pages/Login/Login'
+import TestFunction from '../pages/TestFunction/TestFunction'
 import Vacancies from '../pages/Vacancies/Vacancies'
-export { AboutMe, Contact, HomePages, Login, OurCustomer, Vacancies }
+export { AboutMe, Contact, HomePages, Login, OurCustomer, TestFunction, Vacancies }

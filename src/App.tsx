@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.scss'
-import { AboutMe, Contact, HomePages, Login, Vacancies } from './routes/routes'
+import { AboutMe, Contact, HomePages, Login, TestFunction, Vacancies } from './routes/routes'
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/aboutme' element={<AboutMe />} />
           <Route path='/vacancies' element={<Vacancies />} />
+          <Route path='/testfunction' element={<TestFunction />} />
         </Routes>
       </BrowserRouter>
     </div>

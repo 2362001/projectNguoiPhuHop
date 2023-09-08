@@ -13,7 +13,7 @@ const HomePages = () => {
     <Watermark content='sena'>
       <div className='HomePages'>
         <Header />
-        <Banner img={banner} textBanner='NGƯỜI PHÙ HỢP JOHN HUNT' />
+        <Banner img={banner} textBanner='NGƯỜI PHÙ HỢP JOHN HUNT' isHaveSearchInput />
         <Attractivejob />
         <OurCustomer />
         <OurCustomer />
