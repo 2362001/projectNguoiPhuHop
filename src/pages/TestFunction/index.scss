@@ -1,0 +1,90 @@
+.testfuntion {
+  margin-top: 50px;
+  width: 1633px;
+  font-size: 14px;
+  border: 1px solid #faefef;
+  margin-left: 20px;
+  margin-right: 50px;
+  border-radius: 5px;
+
+  .ant-table-wrapper {
+    .ant-table {
+      .ant-table-thead {
+        background-color: white;
+        tr {
+          background-color: white;
+          .ant-table-cell {
+            &:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not(
+                [colspan]
+              )::before {
+              background: transparent;
+            }
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+
+    .ant-pagination {
+      position: relative;
+      .ant-pagination-total-text {
+        position: absolute;
+        left: 1%;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .ant-pagination-options {
+        position: absolute;
+        left: 9%;
+      }
+      .ant-pagination-prev {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #e0e6ed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .ant-pagination-item-link {
+          color: black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .ant-pagination-next {
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+        border-radius: 50%;
+        background-color: #e0e6ed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .ant-pagination-item-link {
+          color: black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .ant-pagination-item {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #e0e6ed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .ant-pagination-item-active {
+        height: 30px;
+        width: 30px;
+        background-color: #ffffff;
+        color: #007aff;
+      }
+    }
+  }
+}
