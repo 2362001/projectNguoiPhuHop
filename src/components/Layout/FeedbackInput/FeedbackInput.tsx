@@ -1,6 +1,6 @@
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './FeedbackInput.scss'
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 const FeedbackInput = () => {
   return (
     <div className='feedbackInput'>

@@ -1,25 +1,46 @@
 .HomePages {
   .Attractivejob {
-    height: 650px;
-    background-color: blue;
+    margin-top: 50px;
+    height: 400px;
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+
+    span {
+      font-size: 4rem;
+      font-weight: 800;
+    }
 
     .AttractivejobChild {
       width: 60%;
       height: 100%;
+      margin-top: 20px;
 
-      .AttractivejobChild-1 {
+      span {
+        font-size: 1.6rem;
       }
-      .AttractivejobChild-2 {
-        .AttractivejobChildCom {
-          height: 200px;
-          width: 200px;
-          background-color: red;
-        }
-      }
+    }
+  }
+  .OurCustomer {
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+      font-size: 4rem;
+      font-weight: 800;
+    }
+
+    .OurCustomerChild {
+      width: 60%;
+      height: 100%;
+      margin-top: 20px;
     }
   }
 }
